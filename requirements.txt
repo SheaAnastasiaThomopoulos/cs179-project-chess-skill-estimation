@@ -5,3 +5,6 @@ scikit-learn
 pymc
 arviz
 jupyter
+zstandard
+python-chess
+pandas

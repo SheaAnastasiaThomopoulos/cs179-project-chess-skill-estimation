@@ -17,7 +17,7 @@ Can a Bayesian latent skill model accurately estimate player skill and predict t
 
 ## Dataset
 
-We used a  publicly available chess game data from Lichess.
+We used a publicly available chess game data from Lichess.
 
 The raw data should be placed in:
 
