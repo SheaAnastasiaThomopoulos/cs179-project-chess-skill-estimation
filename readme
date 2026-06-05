@@ -1,0 +1,87 @@
+# Chess Skill Estimation Using a TrueSkill-Style Bayesian Model
+
+## Project Overview
+
+This project investigates skill estimation in chess using a probabilistic graphical model. We implement a TrueSkill-style latent variable model in PyMC to infer player skill levels from historical chess games and predict future match outcomes.
+
+The project focuses on Bayesian inference, latent variables, and probabilistic prediction.
+
+## Team Members
+
+* Shea Thomopoulos
+* Pragya Jhunjhunwala
+
+## Our  Research Question
+
+Can a Bayesian latent skill model accurately estimate player skill and predict the outcomes of future chess matches using historical game data?
+
+## Dataset
+
+We used a  publicly available chess game data from Lichess.
+
+The raw data should be placed in:
+
+data/raw/
+
+Processed datasets will be stored in:
+
+data/processed/
+
+## Environment Setup
+
+Create a virtual environment:
+
+```bash
+python -m venv .venv
+```
+
+To activate it:
+
+Mac/Linux:
+
+```bash
+source .venv/bin/activate
+```
+
+Windows:
+
+```bash
+.venv\Scripts\activate
+```
+
+To Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Running the Project
+
+Data preprocessing:
+
+```bash
+python src/data_processing.py
+```
+
+Train the model:
+
+```bash
+python src/model.py
+```
+
+Evaluate predictions:
+
+```bash
+python src/evaluate.py
+```
+
+## Technologies we used:
+
+* Python
+* PyMC
+* NumPy
+* Pandas
+* ArviZ
+* Matplotlib
+* Jupyter Notebook
+
